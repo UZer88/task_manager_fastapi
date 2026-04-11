@@ -25,5 +25,7 @@ jobs:
         pip install pytest pytest-asyncio httpx
 
     - name: Run tests
+      env:
+        PYTHONPATH: .
       run: |
         pytest tests/ -v
