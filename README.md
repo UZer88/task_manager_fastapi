@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/UZer88/task_manager_fastapi/actions/workflows/ci.yml/badge.svg)](https://github.com/UZer88/task_manager_fastapi/actions/workflows/ci.yml)
 [![Docker](https://img.shields.io/badge/docker-ready-blue)](https://www.docker.com/)
+[![Deployed on Render](https://img.shields.io/badge/deployed%20on-render-blue)](https://task-manager-fastapi-m87d.onrender.com/docs)
+
 REST API для управления задачами с аутентификацией. Проект для изучения FastAPI, SQLAlchemy и JWT.
 
 ## Возможности
