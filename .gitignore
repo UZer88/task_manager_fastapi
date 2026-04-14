@@ -6,4 +6,8 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+
+# Database
 *.db
+*.db-journal
+*.db.test
