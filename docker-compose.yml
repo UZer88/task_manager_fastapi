@@ -6,7 +6,8 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./task_manager.db:/app/task_manager.db
+      - ./data:/app/data
     environment:
       - SECRET_KEY=${SECRET_KEY:-your-secret-key-change-in-production}
+      - DATABASE_URL=sqlite+aiosqlite:///./data/task_manager.db
     restart: unless-stopped
